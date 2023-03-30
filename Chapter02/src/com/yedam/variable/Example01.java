@@ -3,10 +3,10 @@ package com.yedam.variable;
 public class Example01 {
 	public static void main(String[] args) {
 		//int
-		int var1 = 0b1011; // 2Áø¼ö (0b)
-		int var2 = 0206; //8Áø¼ö (0)
-		int var3 = 365; //10Áø¼ö
-		int var4 = 0xB3; // 16Áø¼ö (0x)
+		int var1 = 0b1011; // 2ï¿½ï¿½ï¿½ï¿½ (0b)
+		int var2 = 0206; //8ï¿½ï¿½ï¿½ï¿½ (0)
+		int var3 = 365; //10ï¿½ï¿½ï¿½ï¿½
+		int var4 = 0xB3; // 16ï¿½ï¿½ï¿½ï¿½ (0x)
 		
 		System.out.println(var1);
 		System.out.println(var2);
@@ -22,65 +22,65 @@ public class Example01 {
 		System.out.println(bVal4);
 		
 		//long
-		//Á¤¼ö -> ±âÁØ int
+		//ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ int
 		long lVal = 10;
 		long lVal2 = 20;
-		//±âÁØ intÀÇ µ¥ÀÌÅÍ ¹üÀ§¸¦ ¹þ¾î³ª¼­, LÀ» ºÙÈû
+		//ï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½î³ªï¿½ï¿½, Lï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		long lVal3 = 1000000000000L;
 		
-		//char(À¯´ÏÄÚµå)
-		//¹®ÀÚ  ÇÏ³ªÀÇ ¹®ÀÚ¸¸ µé¾î°¡´Â °æ¿ì ex) 'A' 'B'
-		//¹®ÀÚ¿­ ÇÏ³ª ÀÌ»óÀÇ ¹®ÀÚ°¡ µé¾î°¡´Â °æ¿ì ex) "apple"
+		//char(ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½)
+		//ï¿½ï¿½ï¿½ï¿½  ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½î°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ ex) 'A' 'B'
+		//ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½Ï³ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½î°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ ex) "apple"
 		
 		char charVal1 = 'A';
-		char charVal2 = '°¡';
+//		char charVal2 = 'B';
 		char charVal3 = 67;
 		char charVal4 = 0x0041;
 		
 		System.out.println(charVal1);
-		System.out.println(charVal2);
+//		System.out.println(charVal2);
 		System.out.println(charVal3);
 		System.out.println(charVal4);
 	
 		//String
 		char charVal5 = 'È«';
-		String str1 = "È«±æµ¿";
-		String str2 = "ÇÁ ·Î ±× ·¡ ¸Ó";
+		String str1 = "È«ï¿½æµ¿";
+		String str2 = "ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½";
 		
 		System.out.println(str1);
 		System.out.println(str2);
 		
-		//ÀÌ½ºÄÉÀÌÇÁ
-		//ÅÇ¸¸Å­ ¶ç¿ò
-		System.out.println("¹øÈ£\tÀÌ¸§\tÁ÷¾÷");
-		//¿£ÅÍÅ°
-		System.out.println("Çà ´ÜÀ§ Ãâ·Â\n");
-		//¹®¼ö¹®ÀÚ »ç¿ë
-		System.out.println("¿ì¸®´Â \"°³¹ßÀÚ\" ÀÔ´Ï´Ù.");
-		//Æ¯¼ö¹®ÀÚ »ç¿ë2
-		System.out.println("º½\\¿©¸§\\°¡À»\\°Ü¿ï");
+		//ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		//ï¿½Ç¸ï¿½Å­ ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½È£\tï¿½Ì¸ï¿½\tï¿½ï¿½ï¿½ï¿½");
+		//ï¿½ï¿½ï¿½ï¿½Å°
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½\n");
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ì¸®ï¿½ï¿½ \"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\" ï¿½Ô´Ï´ï¿½.");
+		//Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½2
+		System.out.println("ï¿½ï¿½\\ï¿½ï¿½ï¿½ï¿½\\ï¿½ï¿½ï¿½ï¿½\\ï¿½Ü¿ï¿½");
 		
-		//½Ç¼öÅ¸ÀÔ
+		//ï¿½Ç¼ï¿½Å¸ï¿½ï¿½
 		//float
 		float fVal = 3.14f;
 		//double
 		double dVal = 3.14;
 		
-		//e »ç¿ëÇÏ±â
-		double dVal2 = 3e6; // 3.0 * 10ÀÇ 6½Â
-		float fVal2 = 3e6f; // 3.0 * 10ÀÇ 6½Â
-		double dVal3 = 2e-3; // 2.0 * 10ÀÇ -3½Â
+		//e ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
+		double dVal2 = 3e6; // 3.0 * 10ï¿½ï¿½ 6ï¿½ï¿½
+		float fVal2 = 3e6f; // 3.0 * 10ï¿½ï¿½ 6ï¿½ï¿½
+		double dVal3 = 2e-3; // 2.0 * 10ï¿½ï¿½ -3ï¿½ï¿½
 		
 		System.out.println(dVal2);
 		System.out.println(fVal2);
 		System.out.println(dVal3);
 		
-		//³í¸® Å¸ÀÔ - true false
+		//ï¿½ï¿½ Å¸ï¿½ï¿½ - true false
 		boolean stop = true;
 		if(stop) {
-			System.out.println("ÁßÁöÇÕ´Ï´Ù");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½");
 		}else {
-			System.out.println("½ÃÀÛÇÕ´Ï´Ù");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½");
 		}
 		
 		

@@ -12,70 +12,70 @@ public class Switch {
 		
 		switch(number) {
 		case 1 :
-			System.out.println("1¹ø ³ª¿È");
+			System.out.println("1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		case 2 :
-			System.out.println("2¹ø ³ª¿È");
+			System.out.println("2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		case 3 :
-			System.out.println("3¹ø ³ª¿È");
+			System.out.println("3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		case 4 :
-			System.out.println("4¹ø ³ª¿È");
+			System.out.println("4ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		case 5 :
-			System.out.println("5¹ø ³ª¿È");
+			System.out.println("5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		default:
-			System.out.println("6¹ø ³ª¿È");
+			System.out.println("6ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 			break;
 		}
 		
-		//¼ºÀû È®ÀÎ
+		//ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 		char grade = 'B';
 		
 		switch (grade) {
 		case 'A' :
-			System.out.println("AÇÐÁ¡ Ãëµæ");
+			System.out.println("Aï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 			break;
 		case 'B' :
-			System.out.println("BÇÐÁ¡ Ãëµæ");
+			System.out.println("Bï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 			break;
 		case 'C' :
-			System.out.println("CÇÐÁ¡ Ãëµæ");
+			System.out.println("Cï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 			break;
 		case 'D' :
-			System.out.println("DÇÐÁ¡ Ãëµæ");
+			System.out.println("Dï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 			break;
 			
 			
 		}
-		//¹®ÀÚ¿­ È°¿ë switch
-		String position = "°úÀå";
+		//ï¿½ï¿½ï¿½Ú¿ï¿½ È°ï¿½ï¿½ switch
+		String position = "ï¿½ï¿½ï¿½ï¿½";
 		
-		switch (position) {
-		case "ºÎÀå" :
-			System.out.println("¼º°ú±Ý : 1000¸¸¿ø");
-			break;
-		case "Â÷Àå" :
-			System.out.println("¼º°ú±Ý : 500¸¸¿ø");
-			break;
-		case "°úÀå" :
-			System.out.println("¼º°ú±Ý : 300¸¸¿ø");
-			break;
-		default :
-			System.out.println("¼º°ú±Ý : 100¸¸¿ø");
-			break;
-		}
+//		switch (position) {
+//		case "ï¿½ï¿½ï¿½ï¿½" :
+//			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : 1000ï¿½ï¿½ï¿½ï¿½");
+//			break;
+//		case "ï¿½ï¿½ï¿½ï¿½" :
+//			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : 500ï¿½ï¿½ï¿½ï¿½");
+//			break;
+//		case "ï¿½ï¿½ï¿½ï¿½" :
+//			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : 300ï¿½ï¿½ï¿½ï¿½");
+//			break;
+//		default :
+//			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : 100ï¿½ï¿½ï¿½ï¿½");
+//			break;
+//		}
 		
-		//ÀÔ·ÂÇÑ ¼ºÀûÀ» µî±ÞÀ¸·Î È¯»ê
+		//ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¯ï¿½ï¿½
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ºÀûÀÔ·Â>");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½>");
 		int score = sc.nextInt();
-		//90Á¡ ÀÌ»ó A
-		//80Á¡ ÀÌ»ó B
-		//70Á¡ ÀÌ»ó C
-		//60Á¡ ÀÌ»ó D
+		//90ï¿½ï¿½ ï¿½Ì»ï¿½ A
+		//80ï¿½ï¿½ ï¿½Ì»ï¿½ B
+		//70ï¿½ï¿½ ï¿½Ì»ï¿½ C
+		//60ï¿½ï¿½ ï¿½Ì»ï¿½ D
 		
 //		char score1 = String.valueOf(score).charAt(0);
 //		
