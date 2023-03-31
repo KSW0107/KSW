@@ -60,7 +60,7 @@ public class Testjava {
 					for (int i = 0; i < maxDice; i++) {
 						if ((i + 1) == dice) {
 							countAry[i]++;
-						}
+						} //for문 countAry[dice-1]++; 변환 가능
 					}
 				} while (dice != 5);
 				System.out.println("5가 나올때까지 주사위를" + count + "번 굴렸습니다.");
