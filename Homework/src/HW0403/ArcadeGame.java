@@ -48,7 +48,7 @@ public class ArcadeGame implements Keypad{
 			mode = NORMAL_MODE;
 		}
 		
-		System.out.println("현재 모드 :" + mode);
+		System.out.println("현재 모드 :" + (mode==0 ? "NORMAL_MODE" : "HARD_MODE") );
 	}
 
 }
