@@ -35,7 +35,7 @@ public class RandomGame {
 				if(keypad instanceof ArcadeGame) {
 					keypad = new RPGgame(); 	
 				}else if(keypad instanceof RPGgame) {
-					keypad = new ArcadeGame(); 	
+					keypad = new ArcadeGame();
 				}
 			}else if(menu==9) {
 				System.out.println("EXIT");

@@ -2,10 +2,10 @@ package HW0403;
 
 public class RPGgame implements Keypad {
 
-	int mode;
+	private int mode;
 
 	public RPGgame() {
-		this.mode = NORMAL_MODE;
+		this.mode = Keypad.NORMAL_MODE;
 		System.out.println("RPG Game 실행");
 	}
 
@@ -45,7 +45,7 @@ public class RPGgame implements Keypad {
 			mode = NORMAL_MODE;
 		}
 		
-		System.out.println("현재 모드 :" + (mode==0 ? "NORMAL_MODE" : "HARD_MODE" ));
+		System.out.println("현재 모드 :" + (mode==NORMAL_MODE ? "NORMAL_MODE" : "HARD_MODE" ));
 		
 	}
 
